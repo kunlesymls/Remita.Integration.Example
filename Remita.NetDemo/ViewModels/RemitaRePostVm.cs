@@ -1,8 +1,6 @@
-﻿using Remita.Plugin.Models;
-
-namespace Remita.NetDemo.ViewModels
+﻿namespace Remita.NetDemo.ViewModels
 {
-    public class RemitaRePostVm : RemitaRePost
+    public class RemitaRePostVm
     {
     }
 }

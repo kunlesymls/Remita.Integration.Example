@@ -1,6 +1,6 @@
 ﻿namespace Remita.NetDemo.ViewModels
 {
-    public class RemitaPostVm : RemitaPost
+    public class RemitaPostVm 
     {
     }
 }

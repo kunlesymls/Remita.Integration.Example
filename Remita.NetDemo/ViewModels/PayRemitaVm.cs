@@ -1,5 +1,4 @@
-﻿using Remita.Plugin.Helpers;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace Remita.NetDemo.ViewModels
 {
@@ -14,6 +13,6 @@ namespace Remita.NetDemo.ViewModels
         public string PhoneNumber { get; set; }
         [Required]
         public double Amount { get; set; }
-        public RemitaPaymentTypes RemitaPaymentType { get; set; } // This enum is from the nuget package installed
+        public string RemitaPaymentType { get; set; } // This enum is from the nuget package installed
     }
 }

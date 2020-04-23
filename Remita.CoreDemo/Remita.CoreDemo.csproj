@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Remita.Plugin\Remita.Plugin\Remita.Plugin.csproj" />
+    <PackageReference Include="Remita.Plugin" Version="1.0.0" />
   </ItemGroup>
 
 </Project>
